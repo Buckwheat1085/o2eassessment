@@ -28,10 +28,11 @@ hosting setup.
 
 To actually test the endpoint (assumes lando, adjust as appropriate for your setup):
 
-1. Install a site, e.g. by running `lando drush si -y standard`
-2. Enable the module, e.g. with `lando drush en -y o2eassessment`
-2. Visit the endpoint at your site URL with two numeric parameters, e.g. https://o2eassessment.lndo.site/o2eassessment/sum-two-numbers/100/125 with 100 and 125 being the two numbers to add
-3. Verify the result is as expected
+1. Install dependencies with `lando composer install`
+2. Install a site, e.g. by running `lando drush si -y standard`
+3. Enable the module, e.g. with `lando drush en -y o2eassessment`
+4. Visit the endpoint at your site URL with two numeric parameters, e.g. https://o2eassessment.lndo.site/o2eassessment/sum-two-numbers/100/125 with 100 and 125 being the two numbers to add
+5. Verify the result is as expected
 
 ## Tools used
 
