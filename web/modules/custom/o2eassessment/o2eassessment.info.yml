@@ -1,0 +1,5 @@
+name: 'O2E Assessment'
+type: module
+description: 'Sample module for O2E technical assessment.'
+package: Custom
+core_version_requirement: ^10

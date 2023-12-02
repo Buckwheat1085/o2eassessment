@@ -1,0 +1,7 @@
+o2eassessment.sum_two_numbers:
+  path: '/o2eassessment/sum-two-numbers/{number1}/{number2}'
+  defaults:
+    _title: 'Sum Two Numbers'
+    _controller: '\Drupal\o2eassessment\Controller\O2eassessmentController::sumAndFormatTwoNumbers'
+  requirements:
+    _permission: 'access content'

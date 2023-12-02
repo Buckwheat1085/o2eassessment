@@ -1,0 +1,9 @@
+services:
+  o2eassessment.adder:
+    class: Drupal\o2eassessment\Adder
+
+  o2eassessment.string_formatter:
+    class: Drupal\o2eassessment\StringFormatter
+    arguments:
+      - '@o2eassessment.adder'
+      - '@string_translation'

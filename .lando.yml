@@ -1,0 +1,13 @@
+name: o2eassessment
+recipe: drupal10
+services:
+  appserver:
+    webroot: web
+    overrides:
+        environment:
+          DRUSH_OPTIONS_URI: 'https://o2eassessment.lndo.site'
+
+tooling:
+  phpcs:
+    service: appserver
+    cmd: /app/vendor/bin/phpcs
